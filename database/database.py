@@ -1,4 +1,5 @@
-import datetime, functools
+import datetime
+import functools
 from peewee import *
 from typing import Callable, Optional
 from telebot.types import Message

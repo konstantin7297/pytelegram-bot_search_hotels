@@ -1,7 +1,8 @@
 from loader import bot
 from telebot.types import Message
 from database.database import get_db
-import urllib, ast
+import urllib
+import ast
 
 
 def helper(message: Message, hotels):

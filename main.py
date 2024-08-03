@@ -1,8 +1,9 @@
-from loader import bot
-import handlers  # noqa
+import handlers
 from telebot.custom_filters import StateFilter
+
+from loader import bot
+from database.database import db, User, Task
 from utils.set_bot_commands import set_default_commands
-from database.database import *
 
 
 if __name__ == "__main__":

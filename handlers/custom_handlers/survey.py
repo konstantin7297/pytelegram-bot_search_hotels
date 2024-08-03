@@ -7,7 +7,8 @@ from keyboards.reply.side_parametrs import range_price
 from keyboards.reply.city_name import city_name
 from keyboards.reply.calendar import start
 from keyboards.reply.yes_or_no import yes_or_no
-from structure_example.handlers.custom_handlers.all_requests import requests_menu
+# from structure_example.handlers.custom_handlers.all_requests import requests_menu
+from .all_requests import requests_menu
 
 
 @bot.message_handler(commands=["low", 'high', 'custom'])
